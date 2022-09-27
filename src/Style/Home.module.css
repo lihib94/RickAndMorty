@@ -1,0 +1,49 @@
+.home_container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    /* margin-top: 40px; */
+    /* padding: 8em; */
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: url("https://resizing.flixster.com/RUJfAiDlQTatJprIYxWM3LUAZ9E=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjk2MjQ4OC53ZWJw"); */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/497/451/606/tv-show-rick-and-morty-morty-smith-rick-sanchez-hd-wallpaper-preview.jpg");
+}
+.card{
+    text-align: center;
+    font-size:50px;
+    font-weight:500;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 20vh;
+    margin: auto;
+    background-color: #faf6f681;
+    border-radius: 14px;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    color: rgb(64 181 203);
+    text-shadow: -1px 1px 0 rgb(192 223 64),
+            1px 1px 0 rgb(192 223 64),
+            1px -1px 0 rgb(192 223 64),
+            -1px -1px 0 rgb(192 223 64);
+}
+@media only screen and (max-width: 675px) {
+    .home_container {
+      all:unset;
+    }
+    .card{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/497/451/606/tv-show-rick-and-morty-morty-smith-rick-sanchez-hd-wallpaper-preview.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 3em;
+        font-size: 15px;
+        width: 60vw;
+        height: 40vh;
+    }
+}
