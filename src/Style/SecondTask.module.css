@@ -16,12 +16,12 @@
 }
 @media only screen and (max-width: 650px) {
     .chartContainer {
-            width: 20%;
+            /* width: 20%; */
             zoom: 50%;
             /* height: 100vh; */
         }
     .popularityContainer{
-        align-items:flex-start;
+        align-items:center;
     }
         .popularityContainer h1 {
             font-size: 15px;

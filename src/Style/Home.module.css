@@ -35,6 +35,8 @@
 @media only screen and (max-width: 675px) {
     .home_container {
       all:unset;
+    height: 100vh;
+    display: flex;
     }
     .card{
         background-image: url("https://c4.wallpaperflare.com/wallpaper/497/451/606/tv-show-rick-and-morty-morty-smith-rick-sanchez-hd-wallpaper-preview.jpg");

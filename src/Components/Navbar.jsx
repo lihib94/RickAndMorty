@@ -107,7 +107,7 @@ const DrawerAppBar = () => {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 1 }}>
+      <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
       </Box>
     </Box>
