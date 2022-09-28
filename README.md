@@ -12,7 +12,7 @@ https://rick-and-morty-lihi.netlify.app/
 
 ## How to run (Locally)
 - Run "npm install" to install all dependencies
-- Run "npm start" on both projects to start the app.
+- Run "npm start" to start the app.
 
 ## Libraries and explanation
 - All CSS "mudules" are inside the "Style" folder
