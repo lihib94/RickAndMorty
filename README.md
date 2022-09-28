@@ -3,8 +3,8 @@
 ## Description
 
 Rick and Morty App displays two tasks :
-1) Display the Most popular “Evil” character from the “Citadel of Ricks”
-2) Display chart of the popularity (num of episodes is shown on) of 5 given different
+1) The Most popular “Evil” character from the “Citadel of Ricks”
+2) Chart of the popularity (num of episodes is shown on) of 5 given different
 characters.
 
 ## Live Demo
