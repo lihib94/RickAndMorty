@@ -2,13 +2,9 @@
     width:100vw;
     height: 100vh;
     display: flex;
-    /* margin-top: 40px; */
-    /* padding: 8em; */
-    /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-image: url("https://resizing.flixster.com/RUJfAiDlQTatJprIYxWM3LUAZ9E=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjk2MjQ4OC53ZWJw"); */
     background-image: url("https://c4.wallpaperflare.com/wallpaper/497/451/606/tv-show-rick-and-morty-morty-smith-rick-sanchez-hd-wallpaper-preview.jpg");
 }
 .card{

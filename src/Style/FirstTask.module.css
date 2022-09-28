@@ -7,8 +7,7 @@
 }
 
 .evil_container h1 {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: .5em;
     color: gray;
 }
 
@@ -16,8 +15,6 @@
     .evil_container h1 {
        margin-top: 3em;
        font-size: 12px;
-       text-align: center;
-        /* margin: 0 auto; */
-       
+       text-align: center;       
     }
 }

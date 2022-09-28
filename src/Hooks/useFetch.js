@@ -19,8 +19,8 @@ if (action.type === 'SUM_EPISODES'){
 }
 if (action.type === 'REMOVE_DUPLICATE'){
     return {
-        abradolf_lincler: state.abradolf_lincler,
-        arcade_alien: state.arcade_alien,
+        abradolf_lincler: [...new Set(state.abradolf_lincler)],
+        arcade_alien: [...new Set(state.arcade_alien)],
         morty_smith: [...new Set(state.morty_smith)],
         birdperson: [...new Set(state.birdperson)],
         mr_meeseeks: [...new Set(state.mr_meeseeks)],
@@ -56,19 +56,14 @@ useEffect(() => {
     fetchData()
 }, [])
 
-//return statement
-// names.filter((name) => {
-//     name.toLowerCase().replace(/\s+/g,"_");
-//     // console.log(underscoredName)
-// // return [name,popularityState.underscoredName?.length]
-// })
-console.log(names)
-
-    return [mostEvil,
-        ["Abradolf Lincler",popularityState.abradolf_lincler?.length],
+//return data
+const returnedData = {
+    task1: mostEvil,
+    task2: [["Abradolf Lincler",popularityState.abradolf_lincler?.length],
         ["Arcade Alien",popularityState.arcade_alien?.length],
         ["Morty Smith",popularityState.morty_smith?.length],
         ["Birdperson",popularityState.birdperson?.length],
-        ["Mr. Meeseeks",popularityState.mr_meeseeks?.length]
-    ];
+        ["Mr. Meeseeks",popularityState.mr_meeseeks?.length]]
+}
+    return returnedData
 }

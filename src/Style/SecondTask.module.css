@@ -4,26 +4,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1em;
 }
 .popularityContainer h1{
     color:gray;
     margin-top: 2em;
 }
-.chartContainer{
-    /* width: 50vw; */
-    /* height: 100vh; */
-}
+
 @media only screen and (max-width: 650px) {
     .chartContainer {
-            /* width: 20%; */
             zoom: 50%;
-            /* height: 100vh; */
         }
     .popularityContainer{
         align-items:center;
     }
         .popularityContainer h1 {
             font-size: 15px;
+             margin-top: 3em;
         }
 }

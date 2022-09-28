@@ -13,7 +13,6 @@ function App() {
 let names = ["Abradolf Lincler","Arcade Alien","Morty Smith","Birdperson","Mr. Meeseeks"]
 const firstRender = useRef(true);
 const fetchedData = useFetch(names,"Evil");
-const fetchedDataSecondTask = fetchedData.slice(1);
 
 useEffect(()=>{
   if(fetchedData){
@@ -27,8 +26,8 @@ useEffect(()=>{
     <Routes>
           <Route path='/' element={<Navigate replace to="home" />} />
           <Route path='/home' element={<Home />} />
-          {!firstRender.current && <Route path='/FirstTask' element={ fetchedData && <FirstTask fetchedData={fetchedData[0]}/>}/>}
-          {!firstRender.current && <Route path='/SecondTask' element={ fetchedData && <SecondTask fetchedData={fetchedDataSecondTask}/>} />}
+          {!firstRender.current && <Route path='/FirstTask' element={ fetchedData && <FirstTask fetchedData={fetchedData["task1"]}/>}/>}
+          {!firstRender.current && <Route path='/SecondTask' element={ fetchedData && <SecondTask fetchedData={fetchedData["task2"]}/>} />}
           <Route path='*' element={<NotFound />} />
         </Routes>
     </>

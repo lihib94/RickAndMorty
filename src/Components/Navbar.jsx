@@ -41,7 +41,7 @@ const DrawerAppBar = () => {
           return (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: "center"}}>
-              <NavLink to={task} className={classes.hamburgerLinks}><ListItemText primary={item} /></NavLink>
+              <NavLink to={task} key={Math.random()} className={classes.hamburgerLinks}><ListItemText primary={item} /></NavLink>
             </ListItemButton>
           </ListItem>
           )
